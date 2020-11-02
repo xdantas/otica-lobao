@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Ótica Lobão</title>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" />
+
+    <!-- REQUISIÇÃO DOS PRINCIPAIS CSS -->
+    <link rel="stylesheet" type="text/css"  href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"  href="./assets/css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css"  href="./assets/css/styles.css">
+    
+    <!-- REQUISIÇÃO DO SLICK/CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/slick-theme.css"/>
+
+    <!-- REQUISIÇÃO DO ANIMATE/CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/animate.min.css">
+
+    <!-- REQUISIÇÃO DA FONTE --- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">  
+
+  <style>
+    body {
+      font-family: 'Roboto', 'Arial', sans-serif;
+    }
+  </style>
+
+  </head>
+
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top" data-wow-duration="1s" id="nav">
+        <a class="navbar-brand mr-auto ml-auto mr-lg-0" href="#"><img src="./assets/images/logo.png"></a>
+
+        <button class="btn-menu" onclick="toggleSidebarMenu()">
+          <span class="hamburguer"></span>
+        </button>
+
+        <div id="menu-principal" class="row">
+          <ul class="navbar-nav ml-auto" id="links-menu">
+            <li class="nav-item active">
+              <a class="nav-link js-scroll-trigger" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#">Sobre nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#">Parceiros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#">Contato</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+    </header>
+
+    <section class="banner-header" id="home">
+      <div class="banner-imagem" style="background-image: url('./assets/images/banner-header-01.png');">
+        <div class="banner-texto">
+          <h4>A sua</h4>
+          <h1>Ótica</h1>
+          <h2>Na Praia Grande</h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="marcas">
+      <div class="marcas-carousel">
+        <div class="marca-imagem">
+          <img src="./assets/images/logo-ray-ban.png">
+        </div>
+        <div class="marca-imagem">
+          <img src="./assets/images/logo-dolce-gabbana.png">
+        </div>
+        <div class="marca-imagem">
+          <img src="./assets/images/logo-Calvin-klein.png">
+        </div>
+        <div class="marca-imagem">
+          <img src="./assets/images/logo-carolina-herrera.png">
+        </div>
+        <div class="marca-imagem">
+          <img src="./assets/images/logo-guess.png">
+        </div>
+        <div class="marca-imagem">
+          <img src="./assets/images/logo-oakley.png">
+        </div>
+        <div class="marca-imagem">
+          <img src="./assets/images/logo-police.png">
+        </div>
+        <div class="marca-imagem">
+          <img src="./assets/images/logo-ana-hickmann.png">
+        </div>
+      </div>
+    </section>
+
+    <section class="produtos">
+      <div class="row m-0" id="oculos-de-grau">
+        <div class="col-md-6 p-0">
+          <div class="produto-imagem" style="background-image: url('./assets/images/banner-produtos-01.png');"></div>
+        </div>
+        <div class="col-md-6 p-0">
+          <div class="produto-texto">
+            <h1>Óculos<br> de grau</h1>
+            <a>Conheça o catálogo</a>
+          </div>
+        </div>
+      </div>
+      <div class="row m-0" id="oculos-de-sol">
+        <div class="col-md-6 p-0">
+          <div class="produto-texto">
+            <h1>Óculos<br> de sol</h1>
+            <a>Conheça o catálogo</a>
+          </div>
+        </div>
+        <div class="col-md-6 p-0">
+          <div class="produto-imagem" style="background-image: url('./assets/images/banner-produtos-02.png');"></div>
+        </div>
+      </div>
+      <div class="row m-0 oculos-infantis">
+        <div class="col-md-6 p-0">
+          <div class="produto-imagem" style="background-image: url('./assets/images/banner-produtos-03.png');"></div>
+        </div>
+        <div class="col-md-6 p-0">
+          <div class="produto-texto">
+            <h1>Óculos<br> infantis</h1>
+            <a>Conheça o catálogo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="servicos">
+      <div class="row m-0" id="cuidados-para-visao">
+        <div class="col-md-4 p-0">
+          <div class="servico-texto">
+            <div class="caixa-texto">
+              <h4>Cuidados para Visão</h4>
+              <h1>Alta<br>tecnologia</h1>
+            </div>
+            <a>Nossos serviços</a>
+          </div>
+        </div>
+        <div class="col-md-8 p-0">
+          <div class="servico-imagem" style="background-image: url('./assets/images/banner-servicos-01.png');"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="parceiros">
+      <div class="row m-0">
+        <div class="col-md-3">
+          <div class="parceiros-texto">
+            Parceiros
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="parceiros-carousel">
+            <div class="parceiro-imagem">
+              <img src="./assets/images/logo-hoya.png">
+            </div>
+            <div class="parceiro-imagem">
+              <img src="./assets/images/logo-zeiss.png">
+            </div>
+            <div class="parceiro-imagem">
+              <img src="./assets/images/logo-varilux.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+              <h1>Ótica <b>lobão</b></h1>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Sobre nós</a></li>
+              <li><a href="#">Produtos</a></li>
+              <li><a href="#">Serviços</a></li>
+              <li><a href="#">Contato</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3>Unidade Boqueirão</h3>
+            <h4>13 3222-3333</h4>
+            <p>Av. Lorem ipsum lorem 3333<br>
+              Boqueirão, Praia Grande<br>
+              CEP: 00000-000</p>
+          </div>
+          <div class="col-md-3">
+            <h3>Unidade Ocean</h3>
+            <h4>13 3222-3333</h4>
+            <p>Av. Lorem ipsum lorem 3333<br>
+              Boqueirão, Praia Grande<br>
+              CEP: 00000-000</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/js/slick.js"></script>
+    <script type="text/javascript" src="./assets/js/scripts.js"></script>
+    <script type="text/javascript" src="./assets/js/jquery.mask.js"></script>
+    <script type="text/javascript" src="./assets/js/wow.min.js"></script>
+    <script type="text/javascript" src="./assets/js/jquery.validate.min.js"></script>
+    <!-- REQUISITA O WOW NA PÁGINA, PARA REALIZAÇÃO DOS EFEITOS DA PÁGINA =) -->
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>
